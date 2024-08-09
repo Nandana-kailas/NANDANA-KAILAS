@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NANDANA'S website</title>
+    <script src="script.js"></script>
+    <style>
+        img {
+            border-radius: 50%;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightblue;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 80px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .nav-search {
+            text-align: right;
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+            color: blueviolet;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .footer {
+            background-color: #333;
+            padding: 10px;
+            text-align: left;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .footer a:hover {
+            color: #04AA6D;
+        }
+
+        .footer .social-icons {
+            display: inline-block;
+        }
+
+        .button {
+            background-color: #04AA6D;
+            border: none;
+            color: white;
+            padding: 5px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 13px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+    <div class="nav-search">
+        <input type="text" placeholder="Search..">
+    </div>
+    <div class="container">
+        <img src="download.jpg" alt="profile" style="width:200px">
+        <div class="centered">lil</div>
+    </div>
+
+    <h1>NANDANA KAILAS</h1>
+    <h2>ABOUT ME</h2>
+    <p>Please enter the email.</p>
+    <input type="email" id="mail" placeholder="YOUR EMAIL">
+    <button class="button"><p><a href="mailto:someone@example.com"> Confirm Mail</a></p>
+<p>Click on the "Choose File" button to upload a file:</p>
+
+<form action="/action_page.php">
+  <input type="file" id="myFile" name="filename">
+  <input type="submit">
+</form>
+
+    <div class="footer">
+        <div class="social-icons">
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/30/ffffff/instagram-new.png" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png" alt="Facebook">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="https://img.icons8.com/ios-filled/30/ffffff/twitter-squared.png" alt="Twitter">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
